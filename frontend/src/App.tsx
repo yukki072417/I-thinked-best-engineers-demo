@@ -217,7 +217,7 @@ function Home({
     <div className="demo-shell">
       <section className="demo-panel">
         <p className="eyebrow">Engineer Game Demo</p>
-        <h1>GitHub からキャラクターを生成</h1>
+        <h1>僕が考えた最強のエンジニアたち デモ版</h1>
         <p className="lead">
           このデモ版は、GitHubのリポジトリ読み込み、その場でカードとなるキャラクターカードを生成します。
         </p>
