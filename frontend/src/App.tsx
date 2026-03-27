@@ -219,9 +219,7 @@ function Home({
         <p className="eyebrow">Engineer Game Demo</p>
         <h1>GitHub からキャラクターを生成</h1>
         <p className="lead">
-          このデモ版は、GitHub OAuth
-          で認証して、その場でキャラクターステータスを生成します。
-          データベースは使わず、毎回 GitHub API からスコアを算出します。
+          このデモ版は、GitHubのリポジトリ読み込み、その場でカードとなるキャラクターカードを生成します。
         </p>
 
         <div className="info-box">
