@@ -5,7 +5,7 @@ export const SKILL_DEFS = [
   {
     key: "implementation" as const,
     label: "実装力",
-    short: "実",
+    short: "実装",
     description:
       "過去1年の総コントリビューション数から算出。実装フェーズの開発進捗に直結する。",
     accent: "#e8903a",
@@ -14,7 +14,7 @@ export const SKILL_DEFS = [
   {
     key: "planning" as const,
     label: "企画力",
-    short: "企",
+    short: "企画",
     description:
       "非Forkリポジトリ数 + Wiki有効数 + 技術多様性の合算。企画フェーズと乗数効果に影響する。",
     accent: "#9060d0",
@@ -23,7 +23,7 @@ export const SKILL_DEFS = [
   {
     key: "speed" as const,
     label: "開発速度",
-    short: "速",
+    short: "速度",
     description:
       "直近1年の月次コミットペース + マージ済みPR数から算出。実装フェーズの毎ターン進捗に乗算。",
     accent: "#4a9cd3",
@@ -32,7 +32,7 @@ export const SKILL_DEFS = [
   {
     key: "review" as const,
     label: "レビュー力",
-    short: "評",
+    short: "評価",
     description:
       "PRレビュー数・コメント数・Issueクローズ数から算出。チームの企画力補正に加算ボーナスを与える。",
     accent: "#5baa5b",
@@ -41,7 +41,7 @@ export const SKILL_DEFS = [
   {
     key: "stamina" as const,
     label: "持続力",
-    short: "持",
+    short: "持続",
     description:
       "継続コントリビューション日数・ストリーク期間から算出。体調補正のネガティブ効果を軽減する。",
     accent: "#c85040",
@@ -50,7 +50,7 @@ export const SKILL_DEFS = [
   {
     key: "adaptability" as const,
     label: "適応力",
-    short: "適",
+    short: "適応",
     description:
       "使用言語・フレームワークの多様性から算出。大会の技術マッチ条件を満たしやすくなる。",
     accent: "#c8a84b",
